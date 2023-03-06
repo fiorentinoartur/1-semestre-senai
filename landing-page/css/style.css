@@ -145,142 +145,6 @@ section {
     margin-top: 20px;
     text-transform: justify;
 }
-/* Import da fonte */
-@font-face{
-    font-family: "Bebas";
-    src: url(../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
-    
-}
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-.clear{
-    clear: both;
-}
-header{
- background-color: #F9003D;   
-}
-.grid-layout{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    justify-content: flex-end;
-}
- nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 591px;
-    height: 60px;
-    
-}
-header nav a{
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 100px;
-    font-family: "Bebas";
-}
-section img{
-    width: 100%;
-    height: 740px;
-    background-size: cover;
-}
-.section1{
-    width: 80%;
-    margin: 0 auto;
-  
-}
-.section1 h1{
-    width: 600px;
-    position: relative;
-    bottom: 550px;
-    font-size: 70px;
-    color: white;
-    font-family: "Bebas";
-    font-weight: lighter;
-    padding-bottom: 4px;
-    border-bottom: 1px solid #FFAF00;
-}
-.section1 h2{
-    color: #F9003D;
-    width: 600px;
-    position: relative;
-    bottom: 500px;
-    font-family: "Courier";
-    font-size: 40px;
-    text-transform: uppercase;
-    font-weight: 300px;
-}
-.section1 img{
-    position: absolute;
-    top: 300px;
-    width: 50px;
-}
-section {
- width: 100%;
- background-color: #080324;
-}
-
-.section2{
-    width: 80%;
-    height: 500px;
-    margin: 0 auto;
-}
-.section2 h3{
-    color: #F9003D;
-    font-size: 40px;
-    font-family: "Bebas";
-    text-transform: uppercase;
-    font-weight: lighter;
-    position: relative;
-    bottom: 300px;
-}
-.colunas-flex{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    top: 140px;
-    
-}
-.section2 img{
-    width: 350px;
-    height: 350px;
-    position: relative;
-    bottom: 200px;
-    
-}
-
-.coluna1{
-    width: 50%;
-}
-.coluna2{
-    width: 50%;
-    position: relative;
-    bottom: 150px;
-}
-.coluna2 h5{
-    color: white;
-    color: white;
-    text-transform: uppercase;
-    font-size: 18px;
-}
-.coluna2 h4{
-    color: #FFAF00;
-    font-size: 35px;
-    text-transform: uppercase;
-    margin-top: 20px;
-}
-.coluna2 p{
-    color: white;
-    margin-top: 20px;
-    text-transform: justify;
-}
-
 .section3 img{
     width:100%;
     height: 350px;
@@ -354,9 +218,9 @@ section .sec3{
 .localizacao{
     width: 80%;
     margin: 0 auto;
-    position: absolute;
-    bottom: -1450px;
-    left: 300px;
+    position: relative;
+    bottom: 350px;
+    left: 150px;
 }
 .colums-flex{
     display: flex;
