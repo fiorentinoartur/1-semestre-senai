@@ -1,0 +1,209 @@
+
+@font-face {
+    font-family:Titi ;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+@font-face {
+    font-family: titili;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: #1B1426;
+}
+
+header .header-top{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #F9AA01;
+}
+.layout-grid{
+    width: 80%;
+    margin: 0 auto;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.informacao, .icons{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+ .informacao img, .icons img{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+ }
+ .informacao p{
+    color: white;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 100px;
+ }
+ .header-bottom{
+    height: 90px;
+    display: flex;
+    align-items: center;
+
+ }
+ .header-bottom nav, .login{
+    display: flex;
+    align-items: center;
+ }
+ .header-bottom nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+ }
+ .header-bottom nav a:hover{
+    color: #F9AA01;
+ }
+ .header-bottom img{
+    width: 196px;
+    height: 55px;
+ }
+ .login img{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.section1 img{
+    background-size: cover;
+    position: absolute;
+    height: 813px;
+    width: 100%;
+}
+.section1 h1{
+    font-size: 80px;
+    color: white;
+    margin-top: 50px;
+    font-family: 'titili';
+    font-weight: 900;
+    text-shadow: 5px 10px 18px red;
+    backdrop-filter: #1B1426;
+}
+.banner-flex{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.section1 button{
+    background-color: #F9AA01;
+    width: 209px;
+    height: 39px;
+    border-radius: 8px;
+    margin-top: 550px;
+    border: none;
+}
+.section1 button a{
+    text-decoration: none;
+    color: #1B1426;
+    font-size: 24px;
+    font-weight: bold;
+}
+.section2{
+    height: 500px;
+}
+.section2 .jogos-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.fifa, .cs{
+    width: 556px;
+    height: 81px;
+   
+}
+.fifa img, .cs img{
+    width:556px;
+    height: 300px;
+    margin-top: 150px;
+}
+.fifa .botão{
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.2));
+    border-radius: 8px;
+    width: 556px;
+    height: 81px;
+    bottom: 85px;
+}
+.botão button, .botao1 button{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    width: 221px;
+    height: 57px;
+    transform: skew(-30deg);
+    background: #F9AA01;
+    border: none;
+}
+.botão p, .botao1 p{
+    font-size: 20px;
+    font-family: 'Titi';
+}
+.cs .botao1{
+    position: relative;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0.2));
+    border-radius: 8px;
+    width: 556px;
+    height: 81px;
+    bottom: 85px;
+}
+.section3{
+    width: 100%;
+    height: 1000px;
+    background-color: #F9AA01;
+}
+.section3 h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'titili';;
+    padding-left: 300px;
+    padding-top: 50px;
+}
+#linha{
+    margin-left: 470px;
+    height: 50px;
+    width: 204px;
+    border-bottom: 2px solid #1B1426;
+}
+.img-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.section3 .flex{
+    display: flex;
+    justify-content: center;
+}
+.article1{
+    width: 360px;
+    height: 440px;
+    background-image: linear-gradient(to bottom, rgba(122, 49, 236,0.5), rgba(47, 7, 109,0.2));
+    position: absolute;
+    top: 1700px;
+    right: 770px;
+    
+    
+}
+.article1 img, .article2 img{
+    padding-left: 110px;
+    padding-top: 20px; 
+}  
+.article2{
+    width: 360px;
+    height: 440px;
+    background-image: linear-gradient(to bottom, rgba(122, 49, 236,0.5), rgba(47, 7, 109,0.2)); 
+    position: absolute;
+    top: 1700px;
+    left: 770px;
+}
