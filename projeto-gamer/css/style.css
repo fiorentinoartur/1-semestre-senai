@@ -8,6 +8,11 @@
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
 }
 
+@font-face {
+    font-family: Quick;
+    src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -146,6 +151,10 @@ header .header-top {
     padding-top: 100px;
 }
 
+.fifa {
+    margin-right: 10px;
+}
+
 .section2 .botao {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.2));
     border-radius: 8px;
@@ -178,7 +187,8 @@ header .header-top {
     height: 1000px;
     background-color: #F9AA01;
 }
-.section3 h1{
+
+.section3 h1 {
     text-transform: uppercase;
     font-family: 'titili';
     font-size: 40px;
@@ -186,16 +196,66 @@ header .header-top {
     justify-content: center;
     padding: 20px 0;
 }
-.line{
+
+.line {
     width: 204px;
     height: 1px;
     border-bottom: 2px solid black;
     margin: 0 auto;
 }
 
+.flex-time {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
+.box2 {
+    margin-right: 10%;
+}
 
+.box1 img,
+.box2 img {
+    position: absolute;
+    width: 521px;
+    height: 692px;
 
+}
 
+.article, .article1{
+    margin-right: 10px;
+    background-image: linear-gradient(to bottom, rgba(48, 8, 111, 0.5), rgba(122, 49, 236, 0.3));
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 440px;
+    border-radius: 8px;
+    color: white;
+    padding-top: 100px;
+    position: relative;
+    top: 190px;
+    
+}
+
+.informacao1 h2, .informacao2 h2 {
+    margin-top: 120px;
+    font-size: 25px;
+    font-family: 'titili';
+    padding-bottom: 20px;
+    padding:  20px;
+}
+
+.informacao1 p, .informacao2 p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 20px;
+    font-family: 'Quick';
+}
+.informacao1 img, .informacao2 img{
+    position: absolute;
+    left: calc(50% - 71px);
+    top: 50px;
+    width: 143px;
+    height: 143px;
+}
